@@ -129,8 +129,7 @@ body{
 }
 
 .btn1 {
-    padding: 10px;
-    width: 140px;
+    padding: 10px 40px;
     color: white;
     background-color: rgba(255, 42, 0, 0.969);
     border: 0;
@@ -138,6 +137,7 @@ body{
     text-transform: uppercase;
     cursor: pointer;
 }
+
 .btn1:hover,
 .btn2:hover {
     transform: scale(1.1);
@@ -146,8 +146,7 @@ body{
 
 
 .btn2 {
-    padding: 10px;
-    width: 140px;
+    padding: 10px 40px;
     color: white;
     background-color: transparent;
     border: 1px solid white;
@@ -158,11 +157,17 @@ body{
 
 /* Extra small: 0px (320px) - 575px */
  @media (max-width: 575px) {
+    body {
+        align-items: start;
+    }
+
     .container {
         flex-direction: column;
-        max-width: 280px;
-        height: 960px; 
+        max-width: 300px;
+        height: 960px;
+        margin-top: 10px;
     }
+
 
     .white_block,
     .red_block {
