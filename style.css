@@ -141,7 +141,7 @@ body{
 .btn1:hover,
 .btn2:hover {
     transform: scale(1.1);
-    transition: 1s;
+    transition: 0.4s;
 }
 
 
@@ -167,6 +167,11 @@ body{
         height: 960px;
         margin-top: 10px;
     }
+
+    .btn1:hover,
+    .btn2:hover {
+        transform: none;
+}
 
 
     .white_block,
